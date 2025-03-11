@@ -8,7 +8,6 @@ import datetime
 from datetime import datetime
 from scipy.optimize import minimize
 
-#
 def extract_data(df, city, start, end):
     start = pd.to_datetime(start)
     end = pd.to_datetime(end)
